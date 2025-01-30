@@ -1,7 +1,13 @@
-# main:
+main:
 
-#   - title: "Global Infrastructure emissions Detector"
-#     authors: Organized by <strong>Tsinghua University</strong>
-#     shortinfo: The Global Infrastructure Emissions Detector (GID) tracks global emission sources, analyzes temporal and spatial patterns, and provides tools and models for related research.
-#     page: http://gidmodel.org.cn/?page_id=1774&lang=en#firstPage
-#     image: ./images/gid-web.png
+  - title: "New Trends in Image Restoration and Enhancement CVPR Workshop 2024"
+    authors: Organized by <strong>CVPR2024</strong>
+    shortinfo: NTIRE 2024 Efficient Image Super-Resolution Challenge. <strong>Runner-up Winner</strong>
+    # page: http://gidmodel.org.cn/?page_id=1774&lang=en#firstPage
+    image: ./images/competition/ESR.png
+
+  - title: "AIS CVPR Workshop 2024"
+    authors: Organized by <strong>CVPR2024</strong>
+    shortinfo: Real-Time 4K Super-Resolution of Compressed AVIF Images. <strong>Runner-up Winner</strong>
+    # page: http://gidmodel.org.cn/?page_id=1774&lang=en#firstPage
+    image: ./images/competition/ESR.png

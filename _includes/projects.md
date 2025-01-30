@@ -1,8 +1,8 @@
-<h2 id="projects" style="margin: 2px 0px -15px;">Projects</h2>
+<h2 id="projects" style="margin: 2px 0px -15px;">Competition</h2>
 
 <div class="publications">
 <ol class="bibliography">
-<!-- <p>&ast; indicates contributed equally and <i class="fa-regular fa-envelope fa-xs"></i> is corresponding author.</p> -->
+<!-- <p>* indicates contributed equally and <i class="fa-regular fa-envelope fa-xs"></i> is corresponding author.</p> -->
 {% for link in site.data.projects.main %}
 
 <li>
@@ -51,4 +51,3 @@
 
 </ol>
 </div>
-

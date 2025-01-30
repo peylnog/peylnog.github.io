@@ -13,9 +13,10 @@ Hi, I am Long Peng (<span style="font-family: 'Ma Shan Zheng', cursive;">彭龙<
 
 ## News
 - **[Jan. 2025]** One paper is accepted by <a href="https://iclr.cc/">ICLR 2025</a> (THU-A).
-- **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (CCF-A).
-- **[June. 2024]** One paper is accepted by <a href="https://neurips.cc/">NeurIPS 2024</a> (CCF-A).
-<!-- - **[Dec. 2023]** One paper is accepted by <a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia">IEEE Transactions on Multimedia</a> (THU-A). -->
+- **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (THU-A).
+- **[June. 2024]** One paper is accepted by <a href="https://neurips.cc/">NeurIPS 2024</a> (THU-A).
+- **[Feb. 2023]** One paper is accepted by <a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia">CVPR</a> (THU-A).
+- **[Dec. 2023]** One paper is accepted by <a href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia">IEEE Transactions on Multimedia</a> (THU-A).
 
 {% include_relative _includes/publications.md %}
 

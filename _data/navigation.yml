@@ -1,0 +1,11 @@
+main:
+  - title: "Projects"
+    url: ./#projects
+    right: true 
+    
+  - title: "Publications"
+    url: ./#publications
+    # right: true 
+
+  - title: "Bio"
+    url: ./#about-me

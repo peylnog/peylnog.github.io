@@ -1,0 +1,59 @@
+# Basic Information 
+title: Long Peng
+position: PHD
+affiliation: University of Science and Technology of China
+affiliation_link: https://github.com/peylnog
+affiliation_logo: ./assets/img/weblogo.svg
+email: <a href="mailto:longp2001@mail.ustc.edu.cn">longp2001 (at) mail.ustc.edu.cn</a>
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: minimal light
+description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+canonical: https://minimal-light-theme.yliu.me/
+
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+# google_scholar: https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en&oi=ao
+# cv_link: assets/files/curriculum_vitae.pdf
+github_link: https://github.com/peylnog
+# linkedin: https://www.linkedin.com/in/jianchengpan
+# twitter: https://twitter.com/jaychempan
+
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+avatar: ./images/prof_pic_3.png 
+favicon: ./images/redketchup/favicon.ico
+favicon_dark: ./images/redketchup/favicon.ico
+
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: false
+
+# Auto Dark Mode
+# You may use the option to disable the automatic dark theme
+auto_dark_mode: true
+
+# Font
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # or "Sans Serif"
+
+# Google Analytics ID
+# Please remove this if you don't use Google Analytics
+google_analytics: nRPD3tAAAAAJ
+
+# Use this project as a remote theme for GitHub Pages
+# See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
+remote_theme: yaoyao-liu/minimal-light
+
+# The following files will be removed from the generated website.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - README_zh_Hans.md
+  - README_zh_Hant.md
+  - README_de.md
+  - LICENSE
+  - minimal-light.gemspec
+  - html_source_file/

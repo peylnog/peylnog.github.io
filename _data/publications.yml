@@ -1,0 +1,20 @@
+main:
+  - title: "Towards Realistic Data Generation for Real-World Super-Resolution"
+    authors: <strong>Long Peng<strong>, Wenbo Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Renjing Pei, Jingjing Ren, Jiaqi Xu, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Cao, Zheng-Jun Zha
+    conference_short: Preprint
+    conference: The Thirteenth International Conference on Learning Representations (ICLR) 2025
+    pdf: https://arxiv.org/abs/2406.07255
+    code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/papers/ICLR2025.png
+
+  - title: "Boosting Image De-raining Via Central-Surrounding Synergistic Convolution"
+    authors: <strong>Long Peng<strong>, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Xin Di, Peizhe Xia, Xueyang Fu, Yang Cao, Zheng-Jun Zha
+    conference_short: AAAI'25
+    conference: AAAI Conference on Artificial Intelligence, 2025.
+    # pdf: http://arxiv.org/abs/2408.09110
+    # code: https://github.com/jaychempan/LAE-DINO/
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/papers/lae.png
+    # page: https://jianchengpan.space/LAE-website/index.html
+    # notes: AGU24 Oral Presentation

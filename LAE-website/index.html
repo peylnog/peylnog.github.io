@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Cross-Domain Few-Shot Object Detection via
+        Enhanced Open-Set Object Detector">
+  <meta name="keywords" content="Cross-Domain Few-Shot Learning · Few-Shot Object De-
+  tection · Open-Set Detector">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LAE-DINO</title>
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+<!--  <link rel="icon" href="./static/images/favicon.svg">-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://jaychempan.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"> <img width="50" alt="image" src="./assets/lae-dino.png"> Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community</h1>
+          <h2><font color=#2980B9 size="5">AAAI 2025</font></h2> <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=nRPD3tAAAAAJ&hl=en&oi=ao">Jiancheng Pan<sup>*1,2</sup>, </a>
+            </span>
+            <span class="author-block">
+              <div>Yanxing Liu<sup>*3</sup>, </div>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=y3Bpp1IAAAAJ&hl=en&oi=ao">Yuqian Fu†<sup>4,5</sup>, </a>
+            </span>
+            <span class="author-block">
+              <div>Muyuan Ma<sup>1</sup>, </div>  
+            </span> <br>
+            <span class="author-block">
+              <div>Jiahao Li<sup>1</sup>, </div>
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=W43pvPkAAAAJ&hl=en">Danda Pani Paudel<sup>5</sup></a>,
+              <!-- <div>Danda Pani Paudel<sup>4,5</sup>, </div> -->
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en">Luc Van Gool<sup>4,5</sup></a>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=yH9OkqYAAAAJ&hl=en">Xiaomeng Huang†<sup>1</sup></a>,
+              <!-- <div>Xiaomeng Huang†<sup>1</sup></div> -->
+            </span>
+          </div>
+          <br>
+          <h2><font color=#424949 size="3"> <sup>1</sup>Tsinghua University, <sup>2</sup>Zhejiang University of Technology, <sup>3</sup>University of Chinese Academy of Sciences, <sup>4</sup>ETH Zürich, <sup>5</sup>INSAIT</font></h2>
+          <br>
+          <img width="500" alt="image" src="./assets/inst.png">
+          <br>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2408.09110"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/jaychempan/LAE-DINO/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Data & Code</span>
+                  </a>
+              </span>
+              <!-- Video Link. -->
+             <span class="link-block">
+               <a href=""
+                  class="external-link button is-normal is-rounded is-dark">
+                 <span class="icon">
+                     <i class="fab fa-youtube"></i>
+                 </span>
+                 <span>Video </span>
+               </a>
+             </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <center>
+            <img src="./assets/lae.png" width="75%"/>
+            </center>
+            <p>
+              <b>Locate Anything on Earth (LAE)</b> aims to detect any object on Earth and facilitate practical detection tasks, powered by LAE-Label Engine and LAE-DINO Model.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Motivations</h2>
+        <div class="content has-text-justified">
+          <p>
+          Object detection, particularly <b><font color=#2980B9>open-vocabulary object detection</font></b>, plays a crucial role in Earth sciences, such as environmental monitoring, natural disaster assessment, and landuse planning. However, existing open-vocabulary detectors,
+          primarily trained on natural-world images, struggle to generalize to remote sensing images due to a significant data domain gap. Thus, this paper aims to <b><font color=#2980B9>advance the development of open-vocabulary object detection in remote sensing community</font></b>.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Contributions</h2>
+
+        <div class="content has-text-justified">
+          <p>   
+          <p>
+            <b><h3> 🌍 LAE-1M Dataset powered by LAE-Label Engine</h3></b></b>
+            <ul>
+              <li>
+                LAE-Label engine is proposed to solve the <b><font color=#2980B9>lack of diverse object-level labeled data </font></b> in the <b><font color=#2980B9>remote sensing community</font></b>, which is essentially an indispensable part of training robust foundation models.
+              </li>
+              <li>
+                LAE-1M dataset is get by the LAE-Label engine with <b><font color=#2980B9>one million labeled objects across diverse categories</font></b>.
+              </li> 
+              </ul> 
+          </p>
+          <p>
+            <b><h3> 🛰️ LAE-DINO Open-Vocabulary Detector</h3></b></b>
+            <ul> 
+              <li>
+                LAE-DINO Model is proposed and trained to work as <b><font color=#2980B9>the first foundation models for the newly proposed LAE task</font></b>.
+              </li>
+            
+          </ul> 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">LAE-1M Dataset</h2>
+        <div class="content has-text-justified">
+          <p>
+            In addition to the visual examples as shown in the benchmark figure, we further provide more infomations here. <b>All the target datasets could be found on our <a href="https://github.com/jaychempan/LAE-DINO">github repo</a>.</b>
+          </p>
+          <center>
+            <img src="./assets/LAE-1M.png" width="100%"/>
+          </center>
+          <br>
+          <center>
+            <img src="./assets/raw-data-exp.png" width="95%"/>
+          </center>
+          <p>
+            LAE-COD dataset examples: Raw data labelled by LAE-Label engine without rule-based filtering.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">LAE-DINO Model</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose a novel LAE-DINO detector for LAE, with dynamic vocaublary constuction (DVC) and VisualGuided Text Prompt Learning (VisGT) as novel modules. The <b><font color=#2980B9>Overall framework</font></b> of our LAE-DINO:
+        </p>
+          
+          <center>
+            <img src="./assets/LAE-DINO-Pipeline.png" width="100%"/>
+            </center>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Citation</h2>
+    <b>Please consider cite us if you find our dataset, or model is useful to you.</b>
+    <pre><code>
+      @misc{pan2024locateearthadvancingopenvocabulary,
+        title={Locate Anything on Earth: Advancing Open-Vocabulary Object Detection for Remote Sensing Community}, 
+        author={Jiancheng Pan and Yanxing Liu and Yuqian Fu and Muyuan Ma and Jiaohao Li and Danda Pani Paudel and Luc Van Gool and Xiaomeng Huang},
+        year={2024},
+        eprint={2408.09110},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2408.09110}, 
+    }
+    </code></pre>
+  </div>
+</section>
+
+</body>
+</html>

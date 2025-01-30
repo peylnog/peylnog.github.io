@@ -1,9 +1,9 @@
 # Basic Information 
 title: Long Peng
-position: PHD
+position: Ph.D
 affiliation: University of Science and Technology of China
 affiliation_link: https://github.com/peylnog
-affiliation_logo: ./assets/img/weblogo.svg
+# affiliation_logo: ./assets/img/weblogo.svg
 email: <a href="mailto:longp2001@mail.ustc.edu.cn">longp2001 (at) mail.ustc.edu.cn</a>
 
 # Search Engine Optimization (SEO)
@@ -22,7 +22,7 @@ github_link: https://github.com/peylnog
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./images/prof_pic_3.png 
+avatar: ./images/pl_ddbb.jpg
 favicon: ./images/redketchup/favicon.ico
 favicon_dark: ./images/redketchup/favicon.ico
 

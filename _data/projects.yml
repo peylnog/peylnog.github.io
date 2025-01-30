@@ -1,7 +1,7 @@
-main:
+# main:
 
-  - title: "Global Infrastructure emissions Detector"
-    authors: Organized by <strong>Tsinghua University</strong>
-    shortinfo: The Global Infrastructure Emissions Detector (GID) tracks global emission sources, analyzes temporal and spatial patterns, and provides tools and models for related research.
-    page: http://gidmodel.org.cn/?page_id=1774&lang=en#firstPage
-    image: ./images/gid-web.png
+#   - title: "Global Infrastructure emissions Detector"
+#     authors: Organized by <strong>Tsinghua University</strong>
+#     shortinfo: The Global Infrastructure Emissions Detector (GID) tracks global emission sources, analyzes temporal and spatial patterns, and provides tools and models for related research.
+#     page: http://gidmodel.org.cn/?page_id=1774&lang=en#firstPage
+#     image: ./images/gid-web.png

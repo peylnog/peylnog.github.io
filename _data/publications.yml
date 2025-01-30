@@ -1,20 +1,119 @@
 main:
   - title: "Towards Realistic Data Generation for Real-World Super-Resolution"
-    authors: <strong>Long Peng<strong>, Wenbo Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Renjing Pei, Jingjing Ren, Jiaqi Xu, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Cao, Zheng-Jun Zha
-    conference_short: Preprint
-    conference: The Thirteenth International Conference on Learning Representations (ICLR) 2025
+    authors: <strong>Long Peng</strong>, Wenbo Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Renjing Pei, Jingjing Ren, Jiaqi Xu, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Cao, Zheng-Jun Zha
+    conference_short: ICLR2025
+    conference: The Thirteenth International Conference on Learning Representations (ICLR), 2025
     pdf: https://arxiv.org/abs/2406.07255
     code: https://github.com/peylnog
-    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
-    image: ./images/papers/ICLR2025.png
-
+    image: ./images/paper/ICLR2025.jpg
+    
   - title: "Boosting Image De-raining Via Central-Surrounding Synergistic Convolution"
-    authors: <strong>Long Peng<strong>, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Xin Di, Peizhe Xia, Xueyang Fu, Yang Cao, Zheng-Jun Zha
+    authors: <strong>Long Peng</strong>, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Xin Di, Peizhe Xia, Xueyang Fu, Yang Cao, Zheng-Jun Zha
     conference_short: AAAI'25
     conference: AAAI Conference on Artificial Intelligence, 2025.
-    # pdf: http://arxiv.org/abs/2408.09110
-    # code: https://github.com/jaychempan/LAE-DINO/
+    pdf: ./images/paper/AAAI2025.pdf
+    code: https://github.com/peylnog
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
-    image: ./images/papers/lae.png
-    # page: https://jianchengpan.space/LAE-website/index.html
-    # notes: AGU24 Oral Presentation
+    image: ./images/paper/AAAI2025.png
+
+  - title: "Lightweight Adaptive Feature De-drifting for Compressed Image Classification"
+    authors: <strong>Long Peng</strong>, Yang Cao, Yuejin Sun, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>
+    conference_short: TMM'24
+    conference: IEEE Transactions on Multimedia (TMM), 2024
+    pdf: https://ieeexplore.ieee.org/abstract/document/10400436/
+    code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/TMM2024.jpg
+
+  - title: "Efficient Real-world Image Super-Resolution Via Adaptive Directional Gradient Convolution"
+    authors: <strong>Long Peng</strong>, Yang Cao, Renjing Pei<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Wenbo Li, Jiaming Guo, Xueyang Fu, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Zheng-Jun Zha
+    conference_short: Preprint
+    conference: Under Review, 2024.
+    pdf: https://arxiv.org/abs/2405.07023
+    code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/ERealSR.jpg
+
+  - title: "Unveiling Hidden Details: A RAW Data-Enhanced Paradigm for Real-World Super-Resolution"
+    authors: <strong>Long Peng</strong>, Wenbo Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Jiaming Guo, Xin Di, Haoze Sun, Yong Li, Renjing Pei, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Cao, Zheng-Jun Zha
+    conference_short: Preprint
+    conference: Under Review, 2024.
+    pdf: https://arxiv.org/abs/2411.10798
+    code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/UHD_RealSR.jpg
+
+  - title: "Directing Mamba to Complex Textures: An Efficient Texture-Aware State Space Model for Image Restoration"
+    authors: <strong>Long Peng*</strong>, Xin Di*, Zhanfeng Feng, Wenbo Li, Renjing Pei<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Xueyang Fu, Yang Cao, Zheng-Jun Zha
+    conference_short: Preprint
+    conference: Under Review, 2025.
+    pdf: https://arxiv.org/pdf/2501.16583
+    code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/TAMambaIR.jpg
+
+
+  - title: "QMambaBSR: Burst Image Super-Resolution with Query State Space Model"
+    authors: Di, Xin *, <strong>Long Peng *</strong>, Peizhe Xia, Wenbo Li, Renjing Pei, Yang Cao, Yang Wang, Zheng-Jun Zha (*Co-first author). Student Project Leader.
+    conference_short: Preprint
+    conference: Under Review, 2024.
+    pdf: https://arxiv.org/abs/2408.08665
+    # code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/QMambaBSR.jpg
+
+  - title: "S3Mamba: Arbitrary-Scale Super-Resolution via Scaleable State Space Model"
+    authors: Peizhe Xia*, <strong>Long Peng *</strong>, Xin Di, Renjing Pei, Yang Wang, Yang Cao, Zheng-Jun Zha (*Co-first author). Student Project Leader.
+    conference_short: Preprint
+    conference: Under Review, 2024.
+    pdf: https://arxiv.org/abs/2411.11906
+    # code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/S3Mamba.jpg
+
+
+  - title: "Latent Degradation Representation Constraint for Single Image Deraining"
+    authors: Yuhong He *, <strong>Long Peng *</strong>, Lu Wang, Jun Cheng (*Co-first author). Work done during undergraduate thesis.
+    conference_short: ICASSP'24
+    conference: IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2024.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10447510
+    code: https://github.com/Madeline-hyh/LDRCNet
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/ICASSP.jpg
+
+  - title: "Brightness Perceiving for Recursive Low-Light Image Enhancement"
+    conference_short: TAI'2023
+    authors: Haodian Wang*, <strong>Long Peng*</strong>, Yuejin Sun, Zengyu Wan, Yang Wang, Yang Cao (*Co-first author)
+    conference: IEEE Transactions on Artificial Intelligence (TAI), 2023
+    pdf: https://ieeexplore.ieee.org/abstract/document/10341542
+    # code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/TAI.jpg
+
+  - title: "Decoupling-and-Aggregating for Image Exposure Correction"
+    conference_short: CVPR'2023
+    authors: Yang Wang*, <strong>Long Peng*</strong>, Liang Li, Yang Cao, Zheng-Jun Zha (*Co-first author, First student author)
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023
+    pdf: https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Decoupling-and-Aggregating_for_Image_Exposure_Correction_CVPR_2023_paper.html
+    code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/CVPR2023.jpg
+
+  - title: "Cumulative rain density sensing network for single image derain"
+    conference_short: SPL'2020
+    authors: <strong>Long Peng</strong>, Aiwen Jiang, Qiaosi Yi, Mingwen Wang
+    conference: IEEE Signal Processing Letters (SPL), 2020
+    pdf: https://ieeexplore.ieee.org/abstract/document/9001158
+    code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/SPL.jpg
+
+
+  - title: "Ultrapixel: Advancing ultra-high-resolution image synthesis to new peaks"
+    conference_short: NIPS'24
+    authors: Jingjing Ren, Wenbo Li, Haoyu Chen, Renjing Pei, Bin Shao, Yong Guo, <strong>Long Peng</strong>, Fenglong Song, Lei Zhu
+    conference: Neural Information Processing Systems, 2024
+    pdf: https://arxiv.org/abs/2407.02158
+    # code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/NIPS2024.jpg

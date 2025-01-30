@@ -21,7 +21,7 @@ Hi, I am Long Peng (<span style="font-family: 'Ma Shan Zheng', cursive;">彭龙<
 
 {% include_relative _includes/projects.md %}
 
-<!-- {% include_relative _includes/honors.md %} -->
+{% include_relative _includes/honors.md %}
 
 {% include_relative _includes/services.md %}
 

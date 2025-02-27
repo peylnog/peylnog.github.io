@@ -13,6 +13,7 @@ Hi, I am Long Peng (<span style="font-family: 'Ma Shan Zheng', cursive;">彭龙<
 
 
 ## News
+- **[Feb. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com/Conferences/2025/">CVPR 2025</a> (THU-A).
 - **[Jan. 2025]** One paper is accepted by <a href="https://iclr.cc/">ICLR 2025</a> (THU-A).
 - **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (THU-A).
 - **[June. 2024]** One paper is accepted by <a href="https://neurips.cc/">NeurIPS 2024</a> (THU-A).

@@ -1,4 +1,13 @@
 main:
+  - title: "Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian Modeling"
+    authors: <strong>Long Peng *</strong>, Anran Wu*, Wenbo Li, Peizhe Xia, Xueyuan Dai, Xinjie Zhang, Xin Di, Haoze Sun, Renjing Pei, Yang Wang, Yang Cao, Zheng-Jun Zha.  *Co-first Author
+    conference_short: Preprint
+    conference: Under Review, 2025.
+    pdf: https://github.com/peylnog/peylnog.github.io/images/paper_pdf/ArXiv_Pixel_to_Gaussian__Ultra_Fast_Continuous_Super_Resolution_with_2D_Gaussian_Modeling.pdf
+    code: https://github.com/peylnog/ContinuousSR
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/continuousSR.jpg
+
   - title: "QMambaBSR: Burst Image Super-Resolution with Query State Space Model"
     authors: Di, Xin *, <strong>Long Peng *</strong>, Peizhe Xia, Wenbo Li, Renjing Pei, Yang Cao, Yang Wang, Zheng-Jun Zha.  <strong>Project Leader, Co-first Author</strong>.
     conference_short: CVPR2025

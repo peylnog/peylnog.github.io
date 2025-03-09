@@ -3,7 +3,7 @@ main:
     authors: <strong>Long Peng *</strong>, Anran Wu*, Wenbo Li, Peizhe Xia, Xueyuan Dai, Xinjie Zhang, Xin Di, Haoze Sun, Renjing Pei, Yang Wang, Yang Cao, Zheng-Jun Zha.  *Co-first Author
     conference_short: Preprint
     conference: Under Review, 2025.
-    pdf: https://github.com/peylnog/peylnog.github.io/images/paper_pdf/ArXiv_Pixel_to_Gaussian__Ultra_Fast_Continuous_Super_Resolution_with_2D_Gaussian_Modeling.pdf
+    pdf: https://github.com/peylnog/peylnog.github.io/blob/main/images/paper_pdf/ArXiv_Pixel_to_Gaussian__Ultra_Fast_Continuous_Super_Resolution_with_2D_Gaussian_Modeling.pdf
     code: https://github.com/peylnog/ContinuousSR
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/continuousSR.jpg

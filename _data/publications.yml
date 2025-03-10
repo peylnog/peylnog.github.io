@@ -1,6 +1,6 @@
 main:
   - title: "Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian Modeling"
-    authors: <strong>Long Peng *</strong>, Anran Wu*, Wenbo Li, Peizhe Xia, Xueyuan Dai, Xinjie Zhang, Xin Di, Haoze Sun, Renjing Pei, Yang Wang, Yang Cao, Zheng-Jun Zha.  *Co-first Author
+    authors: <strong>Long Peng *</strong>, Anran Wu*, Wenbo Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Peizhe Xia, Xueyuan Dai, Xinjie Zhang, Xin Di, Haoze Sun, Renjing Pei, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Cao, Zheng-Jun Zha.  *Co-first Author
     conference_short: Preprint
     conference: Under Review, 2025.
     pdf: https://github.com/peylnog/peylnog.github.io/blob/main/images/paper_pdf/ArXiv_Pixel_to_Gaussian__Ultra_Fast_Continuous_Super_Resolution_with_2D_Gaussian_Modeling.pdf
@@ -9,7 +9,7 @@ main:
     image: ./images/paper/continuousSR.jpg
 
   - title: "QMambaBSR: Burst Image Super-Resolution with Query State Space Model"
-    authors: Di, Xin *, <strong>Long Peng *</strong>, Peizhe Xia, Wenbo Li, Renjing Pei, Yang Cao, Yang Wang, Zheng-Jun Zha.  <strong>Project Leader, Co-first Author</strong>.
+    authors: Di, Xin *, <strong>Long Peng *</strong>, Peizhe Xia, Wenbo Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Renjing Pei, Yang Cao, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Zheng-Jun Zha.  <strong>Project Leader, Co-first Author</strong>.
     conference_short: CVPR2025
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2025
     pdf: https://arxiv.org/abs/2408.08665

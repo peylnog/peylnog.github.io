@@ -18,6 +18,7 @@ From October 2023 to October 2024, I interned at **Huawei Noah’s Ark Lab**, wh
 
 ## News
 - **[Mar. 2025]** We introduce ContinuousSR, the first method to reconstruct a Continuous HR signal, enabling ultra-fast arbitrary-scale super-resolution via rapid rendering! 🚀
+- **[Mar. 2025]** One paper is accepted by ICME.
 - **[Feb. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com/Conferences/2025/">CVPR 2025</a> (THU-A).
 - **[Jan. 2025]** One paper is accepted by <a href="https://iclr.cc/">ICLR 2025</a> (THU-A).
 - **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (THU-A).
@@ -39,4 +40,3 @@ From October 2023 to October 2024, I interned at **Huawei Noah’s Ark Lab**, wh
 <!-- {% include_relative _includes/talks.md %} -->
 
 <!-- {% include_relative _includes/experiences.md %} -->
-

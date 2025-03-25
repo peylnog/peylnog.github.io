@@ -5,7 +5,7 @@ main:
     conference: Under Review, 2025.
     pdf: https://arxiv.org/abs/2503.06617
     code: https://github.com/peylnog/ContinuousSR
-    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    project web: https://peylnog.github.io/ContinuousSR_web
     image: ./images/paper/continuousSR.jpg
 
   - title: "QMambaBSR: Burst Image Super-Resolution with Query State Space Model"

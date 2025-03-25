@@ -39,8 +39,8 @@ main:
     authors: <strong>Long Peng</strong>, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Xin Di, Peizhe Xia, Xueyang Fu, Yang Cao, Zheng-Jun Zha
     conference_short: AAAI'25
     conference: AAAI Conference on Artificial Intelligence, 2025.
-    pdf: ./images/paper/AAAI2025.pdf
-    code: https://github.com/peylnog
+    # pdf: ./images/paper/AAAI2025.pdf
+    # code: https://github.com/peylnog
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/AAAI2025.png
 
@@ -49,7 +49,7 @@ main:
     conference_short: TMM'24
     conference: IEEE Transactions on Multimedia (TMM), 2024
     pdf: https://ieeexplore.ieee.org/abstract/document/10400436/
-    code: https://github.com/peylnog
+    code: https://github.com/peylnog/FDNet
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/TMM2024.jpg
 
@@ -58,7 +58,7 @@ main:
     conference_short: Preprint
     conference: Under Review, 2024.
     pdf: https://arxiv.org/abs/2405.07023
-    code: https://github.com/peylnog
+    code: https://github.com/peylnog/ERealSR-DGPNet
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/ERealSR.jpg
 
@@ -67,7 +67,7 @@ main:
     conference_short: Preprint
     conference: Under Review, 2024.
     pdf: https://arxiv.org/abs/2411.10798
-    code: https://github.com/peylnog
+    code: https://github.com/peylnog/Unveiling-Hidden-Details-A-RAW-Data-Enhanced-RealSR
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/UHD_RealSR.jpg
 
@@ -124,7 +124,7 @@ main:
     authors: <strong>Long Peng</strong>, Aiwen Jiang, Haoran Wei, Bo Liu, Mingwen Wang
     conference: Signal Processing Image Communication, 2021
     pdf: https://www.sciencedirect.com/science/article/abs/pii/S0923596521002204
-    code: https://github.com/peylnog
+    code: https://github.com/peylnog/EnsembleNet
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/SPIC.jpg
 
@@ -133,7 +133,7 @@ main:
     authors: <strong>Long Peng</strong>, Aiwen Jiang, Qiaosi Yi, Mingwen Wang
     conference: IEEE Signal Processing Letters (SPL), 2020
     pdf: https://ieeexplore.ieee.org/abstract/document/9001158
-    code: https://github.com/peylnog
+    code: https://github.com/peylnog/CRDNet
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/SPL.jpg
 

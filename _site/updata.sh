@@ -2,7 +2,7 @@
 ###
  # @Date: 2025-02-02 11:48:23
  # @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- # @LastEditTime: 2025-03-09 22:31:18
+ # @LastEditTime: 2025-03-25 21:51:48
  # @FilePath: /peylnog.github.io/updata.sh
 ### 
 bundle install

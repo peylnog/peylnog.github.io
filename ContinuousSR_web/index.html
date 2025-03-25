@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Cross-Domain Few-Shot Object Detection via
+        Enhanced Open-Set Object Detector">
+  <meta name="keywords" content="Cross-Domain Few-Shot Learning · Few-Shot Object De-
+  tection · Open-Set Detector">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LAE-DINO</title>
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+<!--  <link rel="icon" href="./static/images/favicon.svg">-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://peylnog.github.io/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title"> <img width="50" alt="image" src="./assets/lae-dino.png"> Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian Modeling</h1>
+          <h2><font color=#2980B9 size="5">Arxiv 2025</font></h2> <br>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Long Peng<sup>1,3</sup>†, </a>
+            </span>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Anran Wu<sup>1,2</sup>†, </a>
+            </span>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Wenbo Li<sup>3</sup>*, </a>
+            </span>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Peizhe Xia<sup>1</sup>, </a>
+            </span>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Xueyuan Dai<sup>4</sup>, </a>
+            </span>  <br>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Xinjie Zhang<sup>5</sup>, </a>
+            </span>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Haoze Sun<sup>6</sup>, </a>
+            </span>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Yang Wang<sup>1,4*</sup>, </a>
+            </span>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Yang Cao<sup>1</sup>, </a>
+            </span>
+            <span class="author-block">
+              <a href="https://peylnog.github.io/">Zheng-Jun Zha<sup>1</sup>, </a>
+            </span>
+          </div>
+          <br>
+          <h2><font color=#424949 size="3"><sup>1</sup>USTC, <sup>2</sup>AHU, <sup>3</sup>Huawei Noah’s Ark Lab, <sup>4</sup>Chang’an University, <sup>5</sup>HKUST, <sup>6</sup>THU</font></h2>
+          <!-- <br>
+          <img width="500" alt="image" src="./assets/inst.png">
+          <br> -->
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2503.06617"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/peylnog/ContinuousSR/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+               </a>
+             </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Motivations</h2>
+          <div class="content has-text-justified">
+            <center>
+            <img src="./assets/motivation.png" width="100%"/>
+            </center>
+            <p>
+              Compared to other methods, the proposed ContinuousSR delivers significant improvements in SR quality across all scales, with an impressive 19.5× speedup when continuously upsampling an image across forty scales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Contributions</h2>
+          <div class="content has-text-justified">
+            <!-- <center>
+            <img src="./assets/motivation.png" width="100%"/>
+            </center> -->
+            <p>
+              <ol>
+                <li>A novel ContinuousSR is proposed to reconstruct continuous HR signals from LR images by 2D Gaussian modeling, thereby enabling fast and high-quality super-resolution with arbitrary scale.</li>
+                <li>The Deep Gaussian Prior (DGP) is discovered, based on which DGP-Driven Covariance Weighting is proposed to facilitate the optimization of covariance. Furthermore, Adaptive Position Drifting is introduced to dynamically learn spatial positions in Gaussian space.</li>
+                <li>Extensive experiments demonstrate that our method achieves state-of-the-art performance on seven benchmarks and ultra-fast speed.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Framework</h2>
+          <div class="content has-text-justified">
+            <center>
+            <img src="./paper_img/fig2.png" width="100%"/>
+            </center>
+            <p>
+              (a) Directly learning the end-to-end model from LR to the Gaussian field is challenging due to the vastness and sensitivity of
+              the Gaussian space. (b-c) Through statistical analysis of 40,000 natural images, we uncover the Deep Gaussian Prior and propose Position
+              Drifting, Covariance Prior, and Color Mapping to propose a novel ContinuousSR, enhancing the quality of the Gaussian field.            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">ContinuousSR</h2>
+          <div class="content has-text-justified">
+            <center>
+            <img src="./paper_img/fig3.png" width="100%"/>
+            </center>
+            <p>An overview of the proposed ContinuousSR framework, which consists of three key innovations: DGP-Driven Covariance Weighting (DDCW), Adaptive Position Drifting (APD), and Color Gaussian Mapping (CGM).        
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Performance</h2>
+          <div class="content has-text-justified">
+            <center>
+            <img src="./paper_img/performance.jpg" width="100%"/>
+            </center>
+            <p>PSNR performance comparison with state-of-the-art methods under different benchmarks. Average Time (AT) is reported in milliseconds (ms)       
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Visual Results</h2>
+          <div class="content has-text-justified">
+            <center>
+            <img src="./paper_img/vis1.png" width="100%"/>
+            </center>
+            <p>Qualitative comparison. The visual quality of our method outperforms existing methods. Please zoom in for a better view.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Citation</h2>
+    <b>If you are interested in the following work, please cite the following paper.</b>
+    <pre><code>
+      @article{peng2025pixel,
+        title={Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian Modeling},
+        author={Peng, Long and Wu, Anran and Li, Wenbo and Xia, Peizhe and Dai, Xueyuan and Zhang, Xinjie and Di, Xin and Sun, Haoze and Pei, Renjing and Wang, Yang and others},
+        journal={arXiv preprint arXiv:2503.06617},
+        year={2025}
+    }
+    </code></pre>
+  </div>
+</section>
+
+</body>
+</html>

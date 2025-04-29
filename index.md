@@ -17,7 +17,7 @@ From October 2023 to October 2024, I interned at **Huawei Noah’s Ark Lab**, wh
 
 
 ## News
-- **[Mar. 2025]** We present **ContinuousSR**, the first approach to reconstruct a continuous high-resolution signal—achieving ultra-fast arbitrary-scale super-resolution through rapid rendering. 🔥 **Over 280 GitHub Stars **and counting! 🚀
+- **[Mar. 2025]** We present **ContinuousSR**, the first approach to reconstruct a continuous high-resolution signal—achieving ultra-fast arbitrary-scale super-resolution through rapid rendering. 🔥 **Over 280 GitHub Starsand counting!** 🚀
 - **[Mar. 2025]** One paper is accepted by <a href="https://www.ijcai.org/">IJCAI 2025</a> (CCF-A).
 - **[Feb. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com/Conferences/2025/">CVPR 2025</a> (THU-A).
 - **[Jan. 2025]** One paper is accepted by <a href="https://iclr.cc/">ICLR 2025</a> (THU-A).

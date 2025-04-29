@@ -8,6 +8,15 @@ main:
     page: https://peylnog.github.io/ContinuousSR_web
     image: ./images/paper/continuousSR.jpg
 
+  - title: "Directing Mamba to Complex Textures: An Efficient Texture-Aware State Space Model for Image Restoration"
+    authors: <strong>Long Peng*</strong>, Xin Di*, Zhanfeng Feng, Wenbo Li, Renjing Pei<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Xueyang Fu, Yang Cao, Zheng-Jun Zha
+    conference_short: IJCAI2025
+    conference: International Joint Conference on Artificial Intelligence (IJCAI) 2025.
+    pdf: https://arxiv.org/pdf/2501.16583
+    code: https://github.com/peylnog
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/TAMambaIR.jpg
+
   - title: "QMambaBSR: Burst Image Super-Resolution with Query State Space Model"
     authors: Di, Xin *, <strong>Long Peng *</strong>, Peizhe Xia, Wenbo Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Renjing Pei, Yang Cao, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Zheng-Jun Zha.  <strong>Project Leader, Co-first Author</strong>.
     conference_short: CVPR2025
@@ -17,14 +26,6 @@ main:
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/QMambaBSR.jpg
 
-  - title: "Directing Mamba to Complex Textures: An Efficient Texture-Aware State Space Model for Image Restoration"
-    authors: <strong>Long Peng*</strong>, Xin Di*, Zhanfeng Feng, Wenbo Li, Renjing Pei<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Xueyang Fu, Yang Cao, Zheng-Jun Zha
-    conference_short: Preprint
-    conference: Under Review, 2025.
-    pdf: https://arxiv.org/pdf/2501.16583
-    code: https://github.com/peylnog
-    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
-    image: ./images/paper/TAMambaIR.jpg
 
 
   - title: "Towards Realistic Data Generation for Real-World Super-Resolution"

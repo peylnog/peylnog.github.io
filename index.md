@@ -34,7 +34,7 @@ From October 2023 to October 2024, I interned at **Huawei Noah’s Ark Lab**, wh
 
 {% include_relative _includes/projects.md %}
 
-<!-- {% include_relative _includes/honors.md %} -->
+{% include_relative _includes/honors.md %}
 
 {% include_relative _includes/services.md %}
 

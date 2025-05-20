@@ -1,4 +1,12 @@
 main:
+  - title: "PMQ-VE: Progressive Multi-Frame Quantization for Video Enhancement"
+    authors: ZhanFeng Feng*, <strong>Long Peng*</strong>, Xin Di*, Yong Guo, Wenbo Li, Yulun Zhang, Renjing Pei, Yang Wang, Yang Cao, Zheng-Jun Zha.  <strong>Project Leader, Co-first Author</strong>
+    conference_short: Preprint
+    conference: Under Review, 2025.
+    pdf: https://arxiv.org/pdf/2505.12266
+    code: https://github.com/xiaoBIGfeng/PMQ-VE
+    image: ./images/paper/PMQ-VE.jpg
+
   - title: "Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian Modeling"
     authors: <strong>Long Peng *</strong>, Anran Wu*, Wenbo Li<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Peizhe Xia, Xueyuan Dai, Xinjie Zhang, Xin Di, Haoze Sun, Renjing Pei, Yang Wang<sup><i class="fa-regular fa-envelope fa-xs"></i></sup>, Yang Cao, Zheng-Jun Zha.  *Co-first Author
     conference_short: Preprint

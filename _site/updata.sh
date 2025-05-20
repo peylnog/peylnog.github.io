@@ -2,12 +2,12 @@
 ###
  # @Date: 2025-02-02 11:48:23
  # @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
- # @LastEditTime: 2025-03-25 21:51:48
+ # @LastEditTime: 2025-05-20 16:58:59
  # @FilePath: /peylnog.github.io/updata.sh
-### 
-bundle install
-bundle add webrick
-bundle exec jekyll server
+# ### 
+# bundle install
+# bundle add webrick
+# bundle exec jekyll server
 
 # git config --global http.postBuffer 524288000
 # git config --global http.version HTTP/1.1

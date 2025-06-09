@@ -9,13 +9,14 @@ Hi, I am Long Peng (<span style="font-family: 'Ma Shan Zheng', cursive;">彭龙<
 
 **If you are interested in my research or have any questions, suggestions, or collaboration ideas, please feel free to contact me at Email: [longp2001@mail.ustc.edu.cn](mailto:longp2001@mail.ustc.edu.cn), WeChat: 17370780725.**
 
-## Intern
-From October 2023 to October 2024, I interned at **Huawei Noah’s Ark Lab**, where I had the privilege of being supervised by <a href="https://fenglinglwb.github.io/">Dr. Wenbo Li</a> and <a href="https://scholar.google.com/citations?user=zEEMPUUAAAAJ&hl=zh-CN">Dr. Renjing Pei</a>. 
+## Internship
+- From 2023 to 2025, I interned at **Huawei Noah’s Ark Lab**, where I had the privilege of being supervised by <a href="https://fenglinglwb.github.io/">Dr. Wenbo Li</a> and <a href="https://scholar.google.com/citations?user=zEEMPUUAAAAJ&hl=zh-CN">Dr. Renjing Pei</a>. 
 
+- From 2025 to Now, I interned at **Huawei Camera AI Lab**, where I had the privilege of being supervised by <a href="https://www.guoyongcs.com/">Dr. Yong Guo</a> and <a href="https://fenglinglwb.github.io/">Dr. Wenbo Li</a>.
 
 
 ## News
-- **[Mar. 2025]** We present **ContinuousSR**, the first approach to reconstruct a continuous HR signal—achieving ultra-fast arbitrary-scale super-resolution. 🔥 **280+ Star on <a href="https://github.com/peylnog/">gitHub repo</a>!** 
+- **[Mar. 2025]** We present **ContinuousSR**, the first approach to reconstruct a continuous HR signal—achieving ultra-fast arbitrary-scale super-resolution. 🔥 **340+ Star on <a href="https://github.com/peylnog/ContinuousSR/">GitHub Repo</a>!** 
 - **[Apr. 2025]** One paper is accepted by <a href="https://www.ijcai.org/">IJCAI 2025</a> (CCF-A).
 - **[Feb. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com/Conferences/2025/">CVPR 2025</a> (THU-A).
 - **[Jan. 2025]** One paper is accepted by <a href="https://iclr.cc/">ICLR 2025</a> (THU-A).

@@ -128,22 +128,22 @@ main:
     image: ./images/paper/CVPR2023.jpg
 
 
-  # - title: "Ensemble Image Deraining Network via Progressive Structural Boosting Constraints"
-  #   conference_short: SPIC'2021
-  #   authors: <strong>Long Peng</strong>, Aiwen Jiang, Haoran Wei, Bo Liu, Mingwen Wang
-  #   conference: Signal Processing Image Communication, 2021
-  #   pdf: https://www.sciencedirect.com/science/article/abs/pii/S0923596521002204
-  #   code: https://github.com/peylnog/EnsembleNet
-  #   # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
-  #   image: ./images/paper/SPIC.jpg
+  - title: "Ensemble Image Deraining Network via Progressive Structural Boosting Constraints"
+    conference_short: SPIC'2021
+    authors: <strong>Long Peng</strong>, Aiwen Jiang, Haoran Wei, Bo Liu, Mingwen Wang
+    conference: Signal Processing Image Communication, 2021
+    pdf: https://www.sciencedirect.com/science/article/abs/pii/S0923596521002204
+    code: https://github.com/peylnog/EnsembleNet
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/SPIC.jpg
 
-  # - title: "Cumulative rain density sensing network for single image derain"
-  #   conference_short: SPL'2020
-  #   authors: <strong>Long Peng</strong>, Aiwen Jiang, Qiaosi Yi, Mingwen Wang
-  #   conference: IEEE Signal Processing Letters (SPL), 2020
-  #   pdf: https://ieeexplore.ieee.org/abstract/document/9001158
-  #   code: https://github.com/peylnog/CRDNet
-  #   # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
-  #   image: ./images/paper/SPL.jpg
+  - title: "Cumulative rain density sensing network for single image derain"
+    conference_short: SPL'2020
+    authors: <strong>Long Peng</strong>, Aiwen Jiang, Qiaosi Yi, Mingwen Wang
+    conference: IEEE Signal Processing Letters (SPL), 2020
+    pdf: https://ieeexplore.ieee.org/abstract/document/9001158
+    code: https://github.com/peylnog/CRDNet
+    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+    image: ./images/paper/SPL.jpg
 
 

@@ -118,14 +118,14 @@ main:
     # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
     image: ./images/paper/TAI.jpg
 
-  - title: "Decoupling-and-Aggregating for Image Exposure Correction"
-    conference_short: CVPR'2023
-    authors: Yang Wang*, <strong>Long Peng*</strong>, Liang Li, Yang Cao, Zheng-Jun Zha (*Co-first author, First student author)
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023
-    pdf: https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Decoupling-and-Aggregating_for_Image_Exposure_Correction_CVPR_2023_paper.html
-    code: https://github.com/peylnog
-    # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
-    image: ./images/paper/CVPR2023.jpg
+  # - title: "Decoupling-and-Aggregating for Image Exposure Correction"
+  #   conference_short: CVPR'2023
+  #   authors: Yang Wang*, <strong>Long Peng*</strong>, Liang Li, Yang Cao, Zheng-Jun Zha (*Co-first author, First student author)
+  #   conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023
+  #   pdf: https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Decoupling-and-Aggregating_for_Image_Exposure_Correction_CVPR_2023_paper.html
+  #   code: https://github.com/peylnog
+  #   # bibtex: ./bibx/pan2024locateearthadvancingopenvocabulary.html
+  #   image: ./images/paper/CVPR2023.jpg
 
 
   - title: "Ensemble Image Deraining Network via Progressive Structural Boosting Constraints"

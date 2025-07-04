@@ -5,9 +5,9 @@
  # @LastEditTime: 2025-06-14 11:17:09
  # @FilePath: /peylnog.github.io/updata.sh
 # # ### 
-# bundle install
-# bundle add webrick
-# bundle exec jekyll server
+bundle install
+bundle add webrick
+bundle exec jekyll server
 
 # git config --global http.postBuffer 524288000
 # git config --global http.version HTTP/1.1

@@ -25,7 +25,7 @@ Hi, I am Long Peng (<span style="font-family: 'Ma Shan Zheng', cursive;">彭龙<
 ## News
 - **[Mar. 2025]** We present **ContinuousSR**, the first approach to reconstruct a continuous HR signal—achieving ultra-fast arbitrary-scale super-resolution. 🔥 **360+ Star on <a href="https://github.com/peylnog/ContinuousSR/">GitHub Repo</a>!** 
 - **[Apr. 2025]** One paper is accepted by ICCV (CCF-A).
-- **[Apr. 2025]** One paper is accepted by <a href="https://www.ijcai.org/">IJCAI 2025</a> (CCF-A).
+- **[Apr. 2025]** One paper is accepted by <a href="https://www.ijcai.org/">IJCAI 2025 Oral.</a> (CCF-A).
 - **[Feb. 2025]** One paper is accepted by <a href="https://cvpr.thecvf.com/Conferences/2025/">CVPR 2025</a> (THU-A).
 - **[Jan. 2025]** One paper is accepted by <a href="https://iclr.cc/">ICLR 2025</a> (THU-A).
 - **[Dec. 2024]** One paper is accepted by <a href="https://aaai.org/conference/aaai/aaai-25/">AAAI 2025</a> (THU-A).

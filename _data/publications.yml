@@ -1,4 +1,14 @@
 main:
+
+  - title: "RobustGS: Unified Boosting of Feedforward 3D Gaussian Splatting under Low-Quality Conditions"
+    authors: Anran Wu*, <strong>Long Peng*</strong>, Xin Di*, Xueyuan Dai, Chen Wu, Yang Wang, Xueyang Fu, Yang Cao, Zheng-Jun Zha.  <strong>Project Leader, Co-first Author</strong>
+    conference_short: Preprint
+    conference: Under Review, 2025.
+    pdf: https://arxiv.org/abs/2508.03077
+    code: https://github.com/wuanran678/RobustGS
+    image: ./images/paper/RobustGS.jpg
+
+
   - title: "PMQ-VE: Progressive Multi-Frame Quantization for Video Enhancement"
     authors: ZhanFeng Feng*, <strong>Long Peng*</strong>, Xin Di*, Yong Guo, Wenbo Li, Yulun Zhang, Renjing Pei, Yang Wang, Yang Cao, Zheng-Jun Zha.  <strong>Project Leader, Co-first Author</strong>
     conference_short: Preprint

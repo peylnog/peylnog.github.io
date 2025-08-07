@@ -3,7 +3,7 @@
 <h4 style="margin:0 10px 0;">Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
-  <li><autocolor>ACM MM 2024-2025, NeurIPS 2024-2025, CVPR 2025, ICLR 2025, ICML 2025, ICCV 2025.</autocolor></li>
+  <li><autocolor>ACM MM 2024-2025, NeurIPS 2024-2025, CVPR 2025, ICLR 2025, ICML 2025, ICCV 2025, AAAI 2026, WACV 2026.</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Memberships:</h4>

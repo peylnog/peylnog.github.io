@@ -21,6 +21,173 @@
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
 <!--  <link rel="icon" href="./static/images/favicon.svg">-->
+  <style>
+    /* === 整体页面美化 === */
+    body {
+      background: linear-gradient(180deg, #fafbff 0%, #ffffff 100%);
+    }
+    
+    /* === 标题美化 === */
+    .publication-title {
+      background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-weight: 700;
+    }
+    
+    /* === 接收徽章 === */
+    .accepted-banner {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 10px 28px;
+      border-radius: 50px;
+      display: inline-block;
+      font-weight: 600;
+      font-size: 1rem;
+      margin-bottom: 12px;
+      box-shadow: 0 4px 20px rgba(102, 126, 234, 0.35);
+      letter-spacing: 0.5px;
+    }
+    
+    /* === Stars 徽章 === */
+    .stars-badge {
+      background: linear-gradient(135deg, #ff9a56 0%, #ff6b6b 100%);
+      color: white;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      box-shadow: 0 3px 12px rgba(255, 107, 107, 0.3);
+    }
+    .stars-badge i { color: #FFD700; }
+    
+    /* === News 框 === */
+    .highlight-box {
+      background: #ffffff;
+      border: 1px solid #e8ecf3;
+      border-radius: 16px;
+      padding: 24px 32px;
+      margin: 30px auto;
+      max-width: 680px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    }
+    .news-item {
+      display: flex;
+      align-items: baseline;
+      margin: 12px 0;
+      font-size: 14.5px;
+      line-height: 1.7;
+    }
+    .news-date {
+      color: #667eea;
+      font-weight: 600;
+      min-width: 85px;
+      flex-shrink: 0;
+      font-size: 13px;
+    }
+    .news-text { color: #555; }
+    
+    /* === Section 标题美化 === */
+    .title.is-3 {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 12px;
+      color: #2c3e50;
+    }
+    .title.is-3::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #667eea, #764ba2);
+      border-radius: 2px;
+    }
+    
+    /* === 图片美化 === */
+    .content img {
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .content img:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    }
+    
+    /* === 段落文字 === */
+    .content p {
+      color: #555;
+      line-height: 1.8;
+      margin-top: 18px;
+    }
+    
+    /* === Contributions 列表 === */
+    .content ol {
+      padding-left: 20px;
+    }
+    .content ol li {
+      margin: 14px 0;
+      color: #555;
+      line-height: 1.7;
+      padding-left: 8px;
+    }
+    .content ol li::marker {
+      color: #667eea;
+      font-weight: bold;
+    }
+    
+    /* === Citation 美化 === */
+    #BibTeX {
+      background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+      border-radius: 20px;
+      margin: 40px auto;
+      max-width: 900px;
+    }
+    #BibTeX pre {
+      background: #2d3748;
+      border-radius: 12px;
+      padding: 20px 24px;
+      overflow-x: auto;
+    }
+    #BibTeX code {
+      color: #e2e8f0;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+    
+    /* === 按钮美化 === */
+    .button.is-dark {
+      background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+      border: none;
+      transition: all 0.3s ease;
+    }
+    .button.is-dark:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* === Footer === */
+    .site-footer {
+      background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+      margin-top: 60px;
+    }
+    .site-footer a { color: #74b9ff; }
+    
+    /* === Section 间距 === */
+    .hero.teaser {
+      padding: 2rem 1.5rem;
+    }
+  </style>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -57,7 +224,12 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title"> Pixel to Gaussian: Ultra-Fast Continuous Super-Resolution with 2D Gaussian Modeling</h1>
-          <h2><font color=#2980B9 size="5">Arxiv 2025</font></h2> <br>
+          <div style="margin: 15px 0;">
+            <span class="accepted-banner">🎉 Accepted by ICLR 2026 🎉</span>
+          </div>
+          <div style="margin-bottom: 15px;">
+            <span class="stars-badge"><i class="fas fa-star"></i> 500+ GitHub Stars</span>
+          </div>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://peylnog.github.io/">Long Peng<sup>1,3</sup>†, </a>
@@ -90,11 +262,17 @@
               <a href="https://peylnog.github.io/">Zheng-Jun Zha<sup>1</sup>, </a>
             </span>
           </div>
-          <br>
-          <h2><font color=#424949 size="3"><sup>1</sup>USTC, <sup>2</sup>AHU, <sup>3</sup>Huawei Noah’s Ark Lab, <sup>4</sup>Chang’an University, <sup>5</sup>HKUST, <sup>6</sup>THU</font></h2>
-          <!-- <br>
-          <img width="500" alt="image" src="./assets/inst.png">
-          <br> -->
+          <div style="margin-top: 18px; color: #666; font-size: 14px; line-height: 2.2;">
+            <span style="background: #f0f4ff; padding: 5px 12px; border-radius: 15px; margin: 3px; display: inline-block;"><sup>1</sup>USTC</span>
+            <span style="background: #f0f4ff; padding: 5px 12px; border-radius: 15px; margin: 3px; display: inline-block;"><sup>2</sup>AHU</span>
+            <span style="background: #f0f4ff; padding: 5px 12px; border-radius: 15px; margin: 3px; display: inline-block;"><sup>3</sup>Huawei Noah's Ark Lab</span>
+            <span style="background: #f0f4ff; padding: 5px 12px; border-radius: 15px; margin: 3px; display: inline-block;"><sup>4</sup>Chang'an University</span>
+            <span style="background: #f0f4ff; padding: 5px 12px; border-radius: 15px; margin: 3px; display: inline-block;"><sup>5</sup>HKUST</span>
+            <span style="background: #f0f4ff; padding: 5px 12px; border-radius: 15px; margin: 3px; display: inline-block;"><sup>6</sup>THU</span>
+          </div>
+          <div style="margin-top: 12px; color: #999; font-size: 12px;">
+            <span>† Equal Contribution</span> &nbsp;·&nbsp; <span>* Corresponding Author</span>
+          </div>
           <div class="column has-text-centered">
             <div class="publication-links">
               <span class="link-block">
@@ -113,10 +291,11 @@
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
-                  </a>
+                </a>
               </span>
-               </a>
-             </span>
+              <span class="link-block">
+                <img alt="GitHub stars" src="https://img.shields.io/github/stars/peylnog/ContinuousSR?style=social" style="vertical-align: middle; margin-left: 10px;">
+              </span>
             </div>
           </div>
         </div>
@@ -125,6 +304,31 @@
   </div>
 </section>
 
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="highlight-box" style="text-align: left;">
+            <h3 style="margin: 0 0 15px 0; color: #667eea; font-size: 18px;"><i class="fas fa-bullhorn"></i> News</h3>
+            <div class="news-item">
+              <span class="news-date">[Jan 2026]</span>
+              <span class="news-text">Our paper has been accepted by <strong style="color: #764ba2;">ICLR 2026</strong>! 🎉</span>
+            </div>
+            <div class="news-item">
+              <span class="news-date">[Jan 2026]</span>
+              <span class="news-text">GitHub repo reached <strong style="color: #f5576c;">500+ stars</strong>! Thank you! ⭐</span>
+            </div>
+            <div class="news-item">
+              <span class="news-date">[Mar 2025]</span>
+              <span class="news-text">Paper and code released on arXiv and GitHub.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="hero teaser">
   <div class="container is-max-desktop">
@@ -263,6 +467,12 @@
     </code></pre>
   </div>
 </section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>ContinuousSR &copy; 2025-2026 | <a href="https://peylnog.github.io/">Long Peng</a> @ USTC</p>
+  </div>
+</footer>
 
 </body>
 </html>
